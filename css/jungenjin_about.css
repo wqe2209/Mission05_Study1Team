@@ -26,6 +26,8 @@ header {
    margin: 14px 0 0 0;
    box-sizing: border-box;
    background-color: #fff;
+   position: relative !important; 
+   z-index: 1000 !important;
 }
 h1 img {
    width: 66px;
@@ -39,93 +41,21 @@ h1 {
    margin: -10px 0 0 0;
 }
 /* nav */
-.menu {
-   float: left;
-   height: 80px;
-   width: 918px;
-   z-index: 1;
+.navbar-default {
+   background-color: #ffffff !important;
+   border-color: #ffffff !important;
+ }
+ .navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff !important;
 }
-.navi > li {
-   float: left;
-   margin: 14px 0 0 0;
-   font-size: 18px;
-   font-weight: 300;
-}
-
-.navi > li > a {
-   float: left;
-   height: 40px;
-   width: 150px;
-   line-height: 40px;
-   font-size: 18px;
-   font-weight: 300;
-   text-align: center;
-   color: #292929;
-}
-.navi > li > a:hover {
-   color: #ff7b00;
-   font-weight: bold;
-   text-decoration: none;
-}
-.submenu {
-   width: 150px;
-   height: 50px;
-   top: 80px;
-   position: absolute;
-   display: none;
-   z-index: 1;
-}
-.submenu > li {
-   height: 50px;
-   width: 150px;
-   margin: 0 58px 0 0;
-   font-size: 18px;
-   font-weight: 300;
-   text-align: center;
-   background-color: #ff7b00;
-}
-.submenu > li > a {
-   height: 40px;
-   width: 120px;
-   line-height: 40px;
-   font-size: 14px;
-   /* font-weight: bold; */
-   /* text-align: center; */
-   color: #fff;
-}
-
-.submenu > li > a:hover {
-   background-color: #ff7b00;
-   font-weight: bold;
-}
-nav_r {
-   float: right;
-   overflow: hidden;
-}
-nav_r ul li {
-   float: right;
-   margin: 20px 0 0 0;
-   /* font-size: 18px;
-   font-weight: 300; */
-}
-nav_r ul li img {
-   width: 24px;
-   height: 24px;
-   box-sizing: border-box;
-   background-position: center;
-   background-size: cover;
-}
-.nav_icon1 {
-   float: right;
-   width: 24px;
-   height: 24px;
-   margin: 0 5px 0 0;
-}
-.nav_icon2 {
-   float: right;
-   width: 30px;
-   height: 30px;
-}
+.container-fluid {
+   width: 1150px !important;
+   padding-right: 15px !important;
+   padding-left: 15px !important;
+   margin-right: auto;
+   margin-left: auto;
+ }
 /* main_visual */
 #main_visual {
    clear: both;
