@@ -1,0 +1,116 @@
+@charset "utf-8";
+:root {
+    --light-blue: #6fbaf8;
+    --light-white: #f7f9fc;
+    --white-color: white;
+    --light-grey: lightgrey;
+  
+    --font-huge: 80px;
+    --font-large: 30px;
+    --font-medium: 16px;
+    --font-small: 13px;
+    --font-micro: 12px;
+  }
+  
+  body {
+    background-color: var(--light-white);
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  i {
+    color: var(--light-blue);
+  }
+  
+  a {
+    display: block;
+    margin-top: 10px;
+    color: var(--light-blue);
+    font-weight: bold;
+    font-size: var(--font-small);
+  }
+  
+  .btn {
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: var(--light-blue);
+    border: none;
+  }
+  
+  .white-box {
+    padding: 40px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px var(--light-grey);
+  }
+  
+  .white-box-ver1 {
+    padding: 15px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px var(--light-grey);
+  }
+  
+  .right-box {
+    border-left: 2px solid lightgrey;
+  }
+  
+  .profile-text h2 {
+    font-size: var(--font-large);
+    margin-bottom: 10px;
+  }
+  
+  .profile-text p {
+    font-size: var(--font-medium);
+    margin-bottom: 8px;
+  }
+  
+  .left-line {
+    font-size: var(--font-medium);
+    text-align: center;
+    color: #6fbaf8;
+    border-bottom: 3px solid var(--light-blue);
+  }
+  
+  .right-line {
+    border-bottom: 3px solid var(--light-grey);
+  }
+  
+  .mid-line {
+    border-bottom: 2px solid var(--light-grey);
+    margin-bottom: 20px;
+  }
+  
+  .icons {
+    font-size: var(--font-micro);
+  }
+  
+  .icon {
+    border: 1px solid var(--light-grey);
+    border-radius: 10px;
+    padding: 3px 9px;
+    text-align: center;
+    margin-right: 5px;
+  }
+  
+  .git-icon {
+    font-size: var(--font-huge);
+    margin-bottom: 25px;
+  }
+  
+  .friends {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .friends p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .friends-list {
+    font-size: 10px;
+  }
